@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "490301747901",
+    "project_id": "nshiva-cmsc5303-mobileapps",
+    "storage_bucket": "nshiva-cmsc5303-mobileapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490301747901:android:9a5d473d53b82ab0f83dd4",
+        "android_client_info": {
+          "package_name": "edu.uco.nshiva.cmsc5303.lesson4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490301747901-flgbv7fi7dhialmeqg2an9b5c1r02hc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxjWqJR0LjbN9sPjAzVIzVo5BIZ6A5hOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490301747901-flgbv7fi7dhialmeqg2an9b5c1r02hc0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "490301747901-hgtf9dqv3kddupl1j5lipouvto6m0t9h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "edu.uco.nshiva.cmsc5303.lesson4"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>490301747901-hgtf9dqv3kddupl1j5lipouvto6m0t9h.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.490301747901-hgtf9dqv3kddupl1j5lipouvto6m0t9h</string>
+	<key>API_KEY</key>
+	<string>AIzaSyADbHYsP44FJGghGbX9dwSiLD9OgnPXW1E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>490301747901</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.uco.nshiva.cmsc5303.lesson4</string>
+	<key>PROJECT_ID</key>
+	<string>nshiva-cmsc5303-mobileapps</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nshiva-cmsc5303-mobileapps.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:490301747901:ios:faec3800fd417df4f83dd4</string>
+</dict>
+</plist>
