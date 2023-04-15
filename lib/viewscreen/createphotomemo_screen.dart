@@ -18,6 +18,8 @@ class CreatePhotoMemoScreen extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     return _CreatePhotoMemoState();
+
+    
   }
 }
 
@@ -173,14 +175,13 @@ class _Controller {
           state.screenModel.tempMemo.photoFilename = result[ArgKey.filename]!;
           state.screenModel.tempMemo.photoURL = result[ArgKey.downloadURL]!;
           state.screenModel.tempMemo.createdBy = state.screenModel.user.email!;
-          state.screenModel.tempMemo.timestamp = DateTime.now(); // millisec from 1970/1/1
+          state.screenModel.tempMemo.timestamp = DateTime.now(); //
 
           String docId = await FirestoreController.addPhotoMemo(
             photoMemo: state.screenModel.tempMemo);
             state.screenModel.tempMemo.docId = docId;
             state.screenModel.progressMessage = null;
-            // When a BuildContext is used from a StatefulWidget
-            // the mount property must be checked after an async gap
+            
              if (!state.mounted) return;
 
              Navigator.of(state.context).pop(state.screenModel.tempMemo);

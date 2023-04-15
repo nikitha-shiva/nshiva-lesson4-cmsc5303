@@ -1,4 +1,4 @@
-import 'dart:io';
+//import 'dart:io';
 
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/foundation.dart';
@@ -34,5 +34,9 @@ class StorageController {
       ArgKey.filename: filename,
       ArgKey.downloadURL: downloadURL,
     };
+  }
+
+  static Future<void> deleteFile({required String filename}) async {
+    await FirebaseStorage.instance.ref().child(filename).delete();
   }
 }

@@ -7,6 +7,8 @@ import 'package:lesson4/model/constants.dart';
 import 'package:lesson4/model/signin_screen_model.dart';
 import 'package:lesson4/viewscreen/view/view_util.dart';
 
+import 'createAccount_screen.dart';
+
 class SignInScreen extends StatefulWidget {
   const SignInScreen({Key? key}) : super(key: key);
 
@@ -78,6 +80,11 @@ class _SignInState extends State<SignInScreen> {
                   style: Theme.of(context).textTheme.labelMedium,
                 ),
               ),
+               const SizedBox(height: 12,),
+               TextButton(
+                onPressed: con.createAccount,
+                child: const Text('Need an Account? Click here to create'),
+                ),
             ],
           ),
         ),
@@ -121,5 +128,10 @@ class _Controller {
       showSnackBar(
           context: state.context, seconds: 20, message: 'Sign In Error: $e');
     }
+  }
+
+  void createAccount(){
+    //navigate to create screen
+    Navigator.pushNamed(state.context, CreateAccountScreen.routeName);
   }
 }
